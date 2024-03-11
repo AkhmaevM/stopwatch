@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="stopwatch">
-        <h1>00:00:00</h1>
-        <button class="buttons">
-            <img src="images/stop.png" alt="stop">
-            <img src="images/start.png" alt="start">
-            <img src="images/reset.png" alt="reset">
-        </button>
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img src="images/stop.png" alt="stop" class="stopWatch">
+            <img src="images/start.png" alt="start" class="startWatch">
+            <img src="images/reset.png" alt="reset" class="resetWatch">
+        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
